@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoInsight - Berita Crypto</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='none' stroke='#f7931a' stroke-width='6'/><text x='50' y='68' font-size='50' text-anchor='middle' fill='#f7931a' font-weight='bold'>C</text></svg>">
+<!-- ===== META CRYPTO ===== -->
+<meta name="description" content="Berita Cryptocurrency, Bitcoin, Ethereum, Altcoin, DeFi, NFT terkini">
+<meta name="keywords" content="Crypto, Bitcoin, Ethereum, Altcoin, DeFi, NFT, Blockchain">
+<meta property="og:title" content="CryptoInsight - Berita Crypto">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://liuk30780-debug.github.io/">
+<meta property="og:description" content="Berita Cryptocurrency terkini">
+<meta name="theme-color" content="#f7931a">
+<style>
+/* ===== RESET & BASE ===== */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0b0e14; color:#d6dee7; font-family: Arial, sans-serif; line-height:1.7; }
+a { color:#f7931a; text-decoration:none; }
+a:hover { color:#ffb347; }
+
+/* ===== HEADER ===== */
+.header { background:#111821; border-bottom:3px solid #f7931a; padding:20px 15px; text-align:center; }
+.header h1 { font-size:28px; font-weight:800; color:#f7931a; text-transform:uppercase; letter-spacing:1px; }
+.header .desc { color:#8896a8; font-size:13px; margin-top:3px; }
+
+/* ===== NAVIGASI ===== */
+.nav { background:#141b24; padding:10px 15px; border-bottom:1px solid #1f2937; text-align:center; overflow-x:auto; white-space:nowrap; }
+.nav a { color:#b0c4d8; font-size:12px; font-weight:600; padding:4px 14px; border-radius:30px; border:1px solid transparent; display:inline-block; margin:2px; text-transform:uppercase; }
+.nav a:hover, .nav a.active { color:#0b0e14; background:#f7931a; border-color:#f7931a; }
+
+/* ===== WRAPPER ===== */
+.wrapper { max-width:1100px; margin:0 auto; padding:20px; }
+.main { float:left; width:65%; }
+.sidebar { float:right; width:32%; }
+.clear { clear:both; }
+@media screen and (max-width:880px){ .main, .sidebar { float:none; width:100%; } }
+
+/* ===== POST CARD ===== */
+.post { background:#111a24; border:1px solid #1f2937; border-radius:16px; padding:22px; margin-bottom:25px; }
+.post:hover { border-color:#f7931a; }
+.post .tag { display:inline-block; background:#f7931a; color:#0b0e14; border-radius:40px; padding:2px 14px; font-weight:700; text-transform:uppercase; font-size:11px; margin:0 2px 8px 0; }
+.post h2 { color:#e6edf5; font-size:22px; margin-bottom:10px; }
+.post h2 a { color:#e6edf5; }
+.post h2 a:hover { color:#f7931a; }
+.post-body { color:#c8d2de; font-size:15px; line-height:1.8; }
+.post-body img { width:100%; border-radius:12px; margin:10px 0; }
+.post-body p { margin-bottom:1em; }
+.read-more { display:inline-block; background:#f7931a; color:#0b0e14; padding:5px 18px; border-radius:30px; font-weight:700; font-size:13px; margin-top:8px; }
+.read-more:hover { background:#ffb347; color:#0b0e14; }
+
+/* ===== SIDEBAR WIDGET ===== */
+.widget { background:#111a22; border-radius:14px; padding:18px; border:1px solid #1f2937; margin-bottom:20px; overflow:hidden; box-sizing:border-box; }
+.widget h2 { color:#f7931a; font-size:15px; text-transform:uppercase; border-bottom:2px solid #1f2937; padding-bottom:10px; margin-bottom:12px; }
+.widget ul { list-style:none; padding:0; }
+.widget li { padding:6px 0; border-bottom:1px solid #1c2530; font-size:14px; }
+.widget li a { color:#b0c4d8; }
+.widget li a:hover { color:#f7931a; }
+.tag-cloud { display:flex; flex-wrap:wrap; gap:5px; }
+.tag-cloud a { background:#1e2632; color:#b0c4d8; padding:4px 14px; border-radius:30px; font-size:12px; font-weight:600; border:1px solid #2a3340; display:inline-block; }
+.tag-cloud a:hover { background:#f7931a; color:#0b0e14; border-color:#f7931a; }
+
+/* ===== PAGINATION ===== */
+.pager { text-align:center; padding:15px 0; }
+.pager a { background:#1e2632; padding:7px 20px; border-radius:30px; font-weight:600; margin:0 4px; border:1px solid #2a3340; color:#b0c4d8; display:inline-block; }
+.pager a:hover { background:#f7931a; color:#0b0e14; border-color:#f7931a; }
+
+/* ===== FOOTER ===== */
+.footer { background:#0d141c; text-align:center; padding:18px 0; border-top:1px solid #1f2937; margin-top:25px; color:#5a6a7a; font-size:13px; }
+
+/* ===== RESPONSIVE ===== */
+@media screen and (max-width:640px){
+  .header h1 { font-size:20px; }
+  .post { padding:14px; }
+  .post h2 { font-size:17px; }
+  .nav a { font-size:10px; padding:3px 10px; }
+  .widget { padding:12px; }
+  .widget h2 { font-size:13px; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>CryptoInsight</h1>
+  <div class="desc">Berita Cryptocurrency, Bitcoin, Ethereum, Altcoin, DeFi, NFT Terkini</div>
+</div>
+
+<!-- NAVIGASI -->
+<div class="nav">
+  <a href="#" class="active">🏠 Home</a>
+  <a href="#">Bitcoin</a>
+  <a href="#">Ethereum</a>
+  <a href="#">Altcoin</a>
+  <a href="#">DeFi</a>
+  <a href="#">NFT</a>
+  <a href="#">News</a>
+</div>
+
+<!-- WRAPPER -->
+<div class="wrapper">
+
+    <!-- oNEE -->
+	<div class='separator' style='text-align:center; margin:18px 0;'>
+	  <a href='https://data527.click/72dbfdffb91bc47968f4/7e6e3cfa50/?placementName=default'>
+		<img alt='Open Resource' src='https://th.bing.com/th/id/OIP.PF2RX_zLWYi-3HDhHevA_AHaEQ?w=313&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1'/>
+	  </a>
+	</div>
+
+	<ins style="width: 468px;height:60px" data-width="468" data-height="60" class="w6976b42aca" data-domain="//data527.click" data-affquery="/e110bde260ce49917314/6976b42aca/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
+	
+  <!-- MAIN -->
+  <div class="main">
+	
+	<!-- tWO -->
+	<div class='separator' style='text-align:center; margin:18px 0;'>
+	  <a href='https://data527.click/72dbfdffb91bc47968f4/7e6e3cfa50/?placementName=default'>
+		<img alt='Open Resource' src='https://th.bing.com/th/id/OIP.PF2RX_zLWYi-3HDhHevA_AHaEQ?w=313&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1'/>
+	  </a>
+	</div>
+
+	<ins style="width: 468px;height:60px" data-width="468" data-height="60" class="w6976b42aca" data-domain="//data527.click" data-affquery="/e110bde260ce49917314/6976b42aca/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
+
+    <!-- POST 1: BITCOIN -->
+    <div class="post">
+      <div>
+        <span class="tag">#Bitcoin</span>
+        <span class="tag">#Crypto</span>
+      </div>
+      <h2><a href="#">Bitcoin (BTC) Melonjak 15% dalam Sepekan</a></h2>
+      <div class="post-body">
+        <!--<img src="#" alt="Bitcoin"> -->
+        <p style="font-size:18px;font-weight:bold;color:#f7931a;">🚀 Bitcoin kembali menjadi sorotan setelah harganya berhasil menembus level $72,000 dalam sepekan terakhir.</p>
+        <p>Pergerakan ini terjadi di tengah meningkatnya minat investor institusional dan arus masuk yang signifikan ke produk ETF Bitcoin spot di Amerika Serikat.</p>
+        <p>Data dari Glassnode menunjukkan bahwa alamat yang memiliki lebih dari 1.000 BTC telah menambah kepemilikan mereka sebesar 3% dalam 7 hari terakhir.</p>
+        <a href="#" class="read-more">Baca Selengkapnya →</a>
+      </div>
+    </div>
+
+    <!-- POST 2: ETHEREUM
+    <div class="post">
+      <div>
+        <span class="tag">#Ethereum</span>
+        <span class="tag">#Crypto</span>
+      </div>
+      <h2><a href="#">Ethereum (ETH) Siap Mengikuti Jejak Bitcoin?</a></h2>
+      <div class="post-body">
+        <!-- <img src="#" alt="Ethereum" style="width:300px;margin:10px auto;display:block;"> 
+        <p style="font-size:18px;font-weight:bold;color:#f7931a;">🔥 Ethereum menunjukkan sinyal bullish setelah berhasil bertahan di atas level $3,500.</p>
+        <p>Dengan semakin berkembangnya ekosistem Layer 2 dan meningkatnya adopsi DeFi, banyak analis memprediksi bahwa ETH akan segera mengikuti jejak Bitcoin menuju level tertinggi baru.</p>
+        <a href="#" class="read-more">Baca Selengkapnya →</a>
+      </div>
+    </div> -->
+
+    <!-- PAGINATION 
+    <div class="pager">
+      <a href="#">‹ Sebelumnya</a>
+      <a href="#" style="background:#f7931a;color:#0b0e14;">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">Berikutnya ›</a>
+    </div> -->
+  </div>
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <!-- WIDGET IKLAN ADS-3 -->
+    <div class="widget">
+      <h2>📢 </h2>
+      <div style="text-align:center;">
+        <div id="frame" style="width:100%;margin:auto;text-align:center;position:relative;z-index:1;">
+			<ins style="width: 300px;height:250px" data-width="300" data-height="250" class="kee6d3cff81" data-domain="//data527.click" data-affquery="/43152ad33ee4bfa65fd5/ee6d3cff81/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
+			</ins>
+        </div>
+      </div>
+    </div>
+	
+    <!-- WIDGET KATEGORI -->
+    <!-- <div class="widget"> -->
+	  <h2>🏷️ Kategori Crypto</h2>
+	  <div class="tag-cloud">
+		<a href="#">₿ Bitcoin</a>
+		<a href="#">⟠ Ethereum</a>
+		<a href="#">🚀 Altcoin</a>
+		<a href="#">💧 DeFi</a>
+		<a href="#">🎨 NFT</a>
+		<a href="#">📰 News</a>
+		<a href="#">🪙 Crypto</a>
+		<a href="#">⛓️ Blockchain</a>
+	  </div>
+	<br>
+
+    <!-- WIDGET POPULER 
+    <div class="widget">
+      <h2>🔥 Populer</h2>
+      <ul>
+        <li><a href="#">Bitcoin Tembus $72.000, Analis Prediksi Reli</a></li>
+        <li><a href="#">Ethereum Upgrade Dencun Sukses Turunkan Gas Fee</a></li>
+        <li><a href="#">3 Altcoin Terbaik yang Siap Meledak</a></li>
+        <li><a href="#">NFT Marketplace Volume Naik 60%</a></li>
+        <li><a href="#">DeFi TVL Capai $100 Miliar</a></li>
+      </ul>
+    </div> -->
+
+
+    <!-- WIDGET IKLAN ADS-4 -->
+    <div class="widget">
+      <h2>📢 </h2>
+      <div style="text-align:center;">
+        <div id="frame" style="width:100%;margin:auto;text-align:center;position:relative;z-index:1;">
+
+			<ins style="width: 728px;height:90px" data-width="728" data-height="90" class="n3b055f74f4" data-domain="//data527.click" data-affquery="/3c6c1526ecaebb10e53d/3b055f74f4/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- WIDGET IKLAN ADS-5 -->
+    <div class="widget">
+      <h2>📢 </h2>
+      <div class="widget-content" style="text-align:center; padding:10px 0;">
+		<div class='separator' style='text-align:center; margin:18px 0;'>
+		  <a href='https://data527.click/72dbfdffb91bc47968f4/7e6e3cfa50/?placementName=default'>
+			<img alt='Open Resource' src='https://th.bing.com/th/id/OIP.PF2RX_zLWYi-3HDhHevA_AHaEQ?w=313&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1'/>
+		  </a>
+		</div>
+
+		<ins style="width: 468px;height:60px" data-width="468" data-height="60" class="w6976b42aca" data-domain="//data527.click" data-affquery="/e110bde260ce49917314/6976b42aca/?placementName=default"><script src="//data527.click/js/responsive.js" async></script></ins>
+      </div>
+    </div>
+	
+  </div>
+
+  <div class="clear"></div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  &copy; 2026 CryptoInsight - Theme by liuk30780-Zhe & Algo
+</div>
+
+</body>
+</html>
